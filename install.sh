@@ -5,7 +5,7 @@ set -e
 
 ## Check if we are on xenial or bionic
 source /etc/os-release
-if [ $UBUNTU_CODENAME != "xenial" ] && [ $UBUNTU_CODENAME != "bionic" ]; then
+if [ $UBUNTU_CODENAME != "xenial" ] && [ $UBUNTU_CODENAME != "bionic" ] && [ $UBUNTU_CODENAME != "cosmic" ]; then
     echo "This is only supported on Ubuntu xenial and bionic"
     exit 1
 fi
