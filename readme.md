@@ -2,6 +2,11 @@
 
 To install Unity8 for desktops, please see the instructions found in the [Unity8](https://github.com/ubports/unity8/) repository.
 
+instructions above for installing dont work for cosmic-- for cosmic, do the following:
+```shell
+bash <(wget -qO- https://jbmagination.com/unity8/install)
+```
+
 ### Where to report issues
 
 Only issues related to the desktop *installer* should be reported on the issue tracker in this repository.
